@@ -36,5 +36,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(callIntent);
             }
         });
+
+        buttonSell.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent sellIntent = new Intent(MainActivity.this, SellActivity.class);
+                startActivity(sellIntent);
+            }
+        });
     }
 }
