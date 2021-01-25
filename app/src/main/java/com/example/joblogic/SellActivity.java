@@ -31,9 +31,9 @@ public class SellActivity extends AppCompatActivity {
 
         DBSellHandler db = new DBSellHandler(this);
 
-//        db.addSellInfo(new SellModel("iPhone X", "150000", "1", "2"));
-//        db.addSellInfo(new SellModel("TV", "38000", "2", "2"));
-//        db.addSellInfo(new SellModel("Table", "12000", "1", "2"));
+        db.addSellInfo(new SellModel("iPhone X", "150000", "1", "2"));
+        db.addSellInfo(new SellModel("TV", "38000", "2", "2"));
+        db.addSellInfo(new SellModel("Table", "12000", "1", "2"));
 
 
         listItem = new ArrayList<>();
